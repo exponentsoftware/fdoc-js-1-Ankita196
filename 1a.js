@@ -8,9 +8,9 @@ function countWords(paragraph, w1, w2) {
 
   let word2 = array.filter((x) => x == w2).length;
   if (word1 > word2) {
-    console.log("the word  more frequently occured than you");
+    console.log("the word ${w1} more frequently occured than ${w2}");
   } else {
     console.log("the word you more frequently occured than love");
   }
 }
-console.log(countWords(paragraph, "I", "do"));
+console.log(countWords(paragraph, "Love", "you"));
